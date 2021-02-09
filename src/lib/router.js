@@ -30,6 +30,7 @@ const showTemplate = (hash) => {
   }
 };
 
+
 export const changeRoute = (hash) => {
   if (hash === '#/') {
     return showTemplate(hash);
