@@ -9,11 +9,16 @@ export const logIn = () => {
         <a href="#/resetpassword">¿Has olvidado tu contraseña?</a>
         <button id="login-button">ENTRAR</button>
         <p><strong>¿No tienes cuenta? <a href="#/signup">Regístrate</strong></a></p>
+        
     `;
     divLogIn.innerHTML = viewLogIn;
     const loginForm = divLogIn.querySelector('#login-button');
     loginForm.addEventListener('click', () => {
       window.location.href = '#/channels';
     })
+    
+
     return divLogIn;
 };
+
+
